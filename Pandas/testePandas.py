@@ -5,17 +5,15 @@ train = pd.read_csv("./Docs/train.csv", sep=",")
 #Primeiros 5
 #print(train.head())
 
-#print("\n")
+print("\n")
 #ultimos 5
-#print(train.tail())
-#print("\n")
+print(train.tail())
+print("\n")
 #traz a coluna
-#print(train["Name"].head())
-
-#colunas_selecionadas = ["PassengerId","SibSp","Parch"]
-#print(train[colunas_selecionadas].head())
-
-#print(train[["Age","Pclass"]].describe())
+print(train["Name"].head())
+colunas_selecionadas = ["PassengerId","SibSp","Parch"]
+print(train[colunas_selecionadas].head())
+print(train[["Age","Pclass"]].describe())
 
 print(train.loc[:13,["Age"]])
 
