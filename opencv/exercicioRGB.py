@@ -7,9 +7,8 @@ import random
 
 def funcao(event,x,y,flags,param):
     global r,g,bl
-    if event == cv2.EVENT_MBUTTONUP :
-       cv2.circle(img,(x,y),10,(bl,g,r),-1)
-       print("Circulo")
+    cv2.circle(img,(x,y),10,(bl,g,r),-1)
+     
 
 a = 0
 b = 0
