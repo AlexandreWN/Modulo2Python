@@ -3,6 +3,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression
 
+
+#regressão linear
 dados = {'Area':[40,45,50,53,60,65,100,110,113,130],
 'Valor':[120,180,190,187,195,200,300,320,305,400]}
 
