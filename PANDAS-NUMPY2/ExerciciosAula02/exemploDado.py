@@ -6,11 +6,10 @@ import numpy as np
 
 lista = [random.randint(1,6) for i in range(200)]
 dados = pd.DataFrame(data=lista, columns=['Densidade'])
-'''
+
 fig = plt.figure()
 bp = plt.hist(dados)
 plt.show()
-'''
 
 desvio = np.std(dados['Densidade'], ddof=1)
 media = np.mean(dados['Densidade'])
